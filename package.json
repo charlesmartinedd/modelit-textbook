@@ -1,0 +1,33 @@
+{
+  "name": "modelit-textbook",
+  "version": "1.0.0",
+  "description": "ModelIt Middle School Science Textbook - Connected: How Systems Shape Our World",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:chapter": "node scripts/build-chapter.js",
+    "validate": "node scripts/validate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "education",
+    "textbook",
+    "middle-school",
+    "science",
+    "systems-thinking",
+    "ngss"
+  ],
+  "author": "ModelIt K12",
+  "license": "Educational",
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

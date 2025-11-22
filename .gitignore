@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs (keep final PDFs, ignore intermediates)
+*.html
+!templates/*.html
+*.css
+!styles/*.css
+build/
+dist/
+temp/
+tmp/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Playwright
+playwright-report/
+test-results/
+playwright/.cache/
+
+# Image assets (if storing separately)
+# Uncomment if you want to ignore original image files
+# images/original/
+# images/raw/
+
+# PDF drafts (keep final versions)
+# Uncomment if you want to ignore draft PDFs
+# drafts/
+# *.draft.pdf
