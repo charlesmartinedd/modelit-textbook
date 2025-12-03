@@ -53,3 +53,11 @@ A comprehensive middle school science textbook (Grades 5-8) focusing on systems 
 ### Contact
 
 For questions about this textbook project, contact Alexandria's Design.
+
+## Status
+Active
+
+## TODO
+- [ ] Complete remaining chapters (7-12)
+- [ ] Add interactive Canvas simulations
+- [ ] Implement assessment quizzes
